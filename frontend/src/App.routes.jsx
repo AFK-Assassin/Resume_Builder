@@ -3,11 +3,10 @@ import Login from "./features/auth/pages/Login.jsx"
 import Register from "./features/auth/pages/Register.jsx"
 
 export const router = createBrowserRouter([
-    // {
-    //     path:'/',
-    //     element : <Home/>
-    // },
-    // },
+    {
+        path:'/',
+        element : <h1>home</h1>
+    },
 
     {
         path:'/login',
